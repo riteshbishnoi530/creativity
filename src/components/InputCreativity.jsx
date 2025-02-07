@@ -68,7 +68,7 @@ const FloatingLabelForm = () => {
                         />
                         <label
                             htmlFor="lastName"
-                            className="absolute left-3 top-0 text-gray-500 text-sm transition-all peer-placeholder-shown:top-1/2 -translate-y-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-0 peer-focus:text-sm peer-focus:text-blue-500 bg-white px-1"
+                            className="absolute left-3 top-0 text-sm transition-all peer-placeholder-shown:top-1/2 -translate-y-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-0 peer-focus:text-sm peer-focus:text-blue-500 bg-white px-1"
                         >
                             Last Name
                         </label>
