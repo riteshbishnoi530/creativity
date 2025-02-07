@@ -37,7 +37,7 @@ const FloatingLabelForm = () => {
                             name="firstName"
                             value={formData.firstName}
                             onChange={handleChange}
-                            className="peer w-full border border-gray-300 rounded-md px-3 py-3 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:outline-none"
+                            className="peer w-full rounded-md px-3 py-3 ring ring-gray-200 focus:ring-blue-200 outline-none"
                             placeholder=" "
                         />
                         <label
@@ -57,7 +57,7 @@ const FloatingLabelForm = () => {
                             name="lastName"
                             value={formData.lastName}
                             onChange={handleChange}
-                            className="peer w-full border border-gray-300 rounded-md px-3 py-3 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:outline-none"
+                            className="peer w-full rounded-md px-3 py-3 ring ring-gray-200 focus:ring-blue-300 outline-none"
                             placeholder=" "
                         />
                         <label
@@ -77,7 +77,7 @@ const FloatingLabelForm = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="peer w-full border rounded-md px-3 py-3 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:outline-none"
+                            className="peer w-full rounded-md px-3 py-3 ring ring-gray-200 focus:ring-blue-300 outline-none"
                             placeholder=" "
                         />
                         <label
@@ -97,7 +97,7 @@ const FloatingLabelForm = () => {
                             name="password"
                             value={formData.password}
                             onChange={handleChange}
-                            className="peer w-full border ring ring-gray-200 rounded-md px-3 py-3 focus:ring-blue-300 focus:outline-none"
+                            className="peer w-full ring ring-gray-200 rounded-md px-3 py-3 focus:ring-blue-300 outline-none"
                             placeholder=" "
                         />
                         <label
