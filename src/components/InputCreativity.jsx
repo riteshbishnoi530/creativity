@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Swal from 'sweetalert2'
+
 
 const FloatingLabelForm = () => {
     const [formData, setFormData] = useState({
@@ -15,6 +17,10 @@ const FloatingLabelForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        Swal.fire({
+            title: "Successfully submitted",
+            icon: "success",
+          });
         
         setFormData({
             firstName: "",
@@ -93,6 +99,7 @@ const FloatingLabelForm = () => {
                         <input
                         required
                             type="password"
+                            minLength={8}
                             id="password"
                             name="password"
                             value={formData.password}
