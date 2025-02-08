@@ -2,8 +2,7 @@
 import { useState } from "react";
 import Swal from 'sweetalert2'
 
-
-const FloatingLabelForm = () => {
+const InputCreativity = () => {
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
@@ -20,8 +19,8 @@ const FloatingLabelForm = () => {
         Swal.fire({
             title: "Successfully submitted",
             icon: "success",
-          });
-        
+        });
+
         setFormData({
             firstName: "",
             lastName: "",
@@ -37,7 +36,7 @@ const FloatingLabelForm = () => {
                     {/* First Name */}
                     <div className="relative mb-5">
                         <input
-                        required
+                            required
                             type="text"
                             id="firstName"
                             name="firstName"
@@ -57,7 +56,7 @@ const FloatingLabelForm = () => {
                     {/* Last Name */}
                     <div className="relative mb-5">
                         <input
-                        required
+                            required
                             type="text"
                             id="lastName"
                             name="lastName"
@@ -77,7 +76,7 @@ const FloatingLabelForm = () => {
                     {/* Email */}
                     <div className="relative mb-5">
                         <input
-                        required
+                            required
                             type="email"
                             id="email"
                             name="email"
@@ -97,7 +96,7 @@ const FloatingLabelForm = () => {
                     {/* Password */}
                     <div className="relative mb-5">
                         <input
-                        required
+                            required
                             type="password"
                             minLength={8}
                             id="password"
@@ -125,4 +124,4 @@ const FloatingLabelForm = () => {
     );
 };
 
-export default FloatingLabelForm;
+export default InputCreativity;
