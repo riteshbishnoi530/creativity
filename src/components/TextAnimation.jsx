@@ -17,7 +17,7 @@ function TextAnimation() {
                 <span className='text-white'>d</span>
                 <span className='text-white'>e</span>
             </div>
-            <div className="max-md:text-3xl text-container text-7xl">
+            <div className="max-md:text-3xl text-[#111] text-container text-7xl">
                 <span>F</span>
                 <span>r</span>
                 <span>o</span>
