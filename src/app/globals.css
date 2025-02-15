@@ -10,7 +10,7 @@
     animation: anim 6s infinite linear;
   }
 .loader > span:nth-child(even) {
-    color: #00ed64;
+    color: blue;
   }
   .loader > span:nth-child(2) {
     animation-delay: 0.2s;

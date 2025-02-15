@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Creativity",
   description: "Creativity Project Next.js",
+  
 };
 
 export default function RootLayout({ children }) {
