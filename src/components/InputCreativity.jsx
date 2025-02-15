@@ -32,6 +32,7 @@ const InputCreativity = () => {
     return (
         <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100 p-4">
             <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+                <h1 className="text-4xl text-center font-bold mb-16 max-md:mb-10 max-md:text-3xl">Form validation</h1>
                 <form onSubmit={handleSubmit}>
                     {/* First Name */}
                     <div className="relative mb-5">
