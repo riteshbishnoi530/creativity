@@ -19,7 +19,7 @@ export const metadata = {
     description: "Creativity project",
     images: [
       {
-        url: "/meta-image.webp",
+        url: "meta-image.webp",
         width: 800,
         height: 600,
       },
