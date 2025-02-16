@@ -29,6 +29,7 @@ function TextAnimation() {
                 <span> D</span>
                 <span>e</span>
                 <span>v</span>
+                <span>e</span>
                 <span>l</span>
                 <span>o</span>
                 <span>p</span>
