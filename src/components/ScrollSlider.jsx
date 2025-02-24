@@ -30,7 +30,7 @@ const NewSlider = () => {
         ScrollTrigger.create({
           trigger: ".gsap-parent",
           start: "20% , top",
-          end: "500% center",
+          end: "400% center",
           scrub: 2,
           pin: true,
           animation: tl,
