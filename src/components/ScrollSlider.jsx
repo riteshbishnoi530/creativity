@@ -12,7 +12,7 @@ const NewSlider = () => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline();
       const mm = gsap.matchMedia();
-      // for 1920
+      // responsive on 1920
       mm.add("(min-width:1280.98px)", () => {
         gsap.set(".icon-one", {
           borderRadius: "6px",
@@ -134,7 +134,7 @@ const NewSlider = () => {
             1.4
           );
       });
-      // for 1280
+     // responsive on 1280
       mm.add("(min-width:1023.98px) and (max-width:1280.98px)", () => {
         gsap.set(".icon-one", {
           borderRadius: "6px",
@@ -256,7 +256,7 @@ const NewSlider = () => {
             1.2
           );
       });
-      // for 1024
+     // responsive on 1024
       mm.add("(min-width:767.98px) and (max-width:1023.98px)", () => {
         gsap.set(".icon-one", {
           borderRadius: "6px",
@@ -381,7 +381,7 @@ const NewSlider = () => {
             1.6
           );
       });
-      // For mobile screen
+     // responsive on mobile
       mm.add("(max-width:767.98px)", () => {
         ScrollTrigger.create({
           trigger: ".gsap-parent",
@@ -456,7 +456,7 @@ const NewSlider = () => {
               </div>
               <div className="w-6/12 max-lg:w-full">
                 <Image
-                  src={item.image} // Ensure this is a valid image path or import
+                  src={item.image}
                   alt="slides"
                   width={614}
                   height={427}
